@@ -7,16 +7,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="test.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
     <ClCompile Include="runner.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="test-list.cpp">
+    <ClCompile Include="runner-win.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="runner-win.c">
+    <ClCompile Include="test-platform-output.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="run-tests.c">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>

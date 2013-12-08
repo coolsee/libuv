@@ -80,10 +80,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="run-tests.c" />
     <ClCompile Include="runner-win.c" />
     <ClCompile Include="runner.c" />
-    <ClCompile Include="test-list.cpp" />
-    <ClCompile Include="test.cpp" />
+    <ClCompile Include="test-platform-output.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="runner-win.h" />

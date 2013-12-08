@@ -19,8 +19,8 @@
  * IN THE SOFTWARE.
  */
 
-TEST_DECLARE   (test1)
+TEST_DECLARE   (platform_output)
 
 TASK_LIST_START
-  TEST_OUTPUT_ENTRY  (test1)
+  TEST_OUTPUT_ENTRY  (platform_output)
 TASK_LIST_END
