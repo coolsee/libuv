@@ -19,6 +19,9 @@
     <ClCompile Include="run-tests.c">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="test-tcp-open.c">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="runner.h">

@@ -20,7 +20,11 @@
  */
 
 TEST_DECLARE   (platform_output)
+TEST_DECLARE   (tcp_bind_localhost_ok)
+TEST_DECLARE   (tcp_open)
 
 TASK_LIST_START
   TEST_OUTPUT_ENTRY  (platform_output)
+  TEST_OUTPUT_ENTRY  (tcp_bind_localhost_ok)
+  TEST_OUTPUT_ENTRY  (tcp_open)
 TASK_LIST_END

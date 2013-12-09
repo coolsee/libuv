@@ -84,6 +84,7 @@
     <ClCompile Include="runner-win.c" />
     <ClCompile Include="runner.c" />
     <ClCompile Include="test-platform-output.c" />
+    <ClCompile Include="test-tcp-open.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="runner-win.h" />

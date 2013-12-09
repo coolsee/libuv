@@ -144,7 +144,7 @@ int run_tests(int timeout, int benchmark_output) {
 
   if (!tap_output)
     rewind_cursor();
-
+  system("pause");
   if (!benchmark_output && !tap_output) {
     log_progress(total, passed, failed, todos, skipped, "Done.\n");
   }
